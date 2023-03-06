@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javaguide.AddChapter">
+   <children>
+      <TextField fx:id="nameField" layoutX="65.0" layoutY="38.0" promptText="Название" />
+      <Button layoutX="104.0" layoutY="88.0" mnemonicParsing="false" onAction="#add" prefHeight="25.0" prefWidth="92.0" text="Добавить" textAlignment="CENTER" />
+   </children>
+</AnchorPane>

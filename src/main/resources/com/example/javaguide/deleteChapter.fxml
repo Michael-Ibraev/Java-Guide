@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javaguide.DeleteChapter">
+   <children>
+      <Label layoutX="10.0" layoutY="49.0" text="Вы уверены, что хотите удалить раздел?" />
+      <Button fx:id="delete" layoutX="42.0" layoutY="100.0" mnemonicParsing="false" onAction="#submit" text="Удалить" />
+      <Button fx:id="cancel" layoutX="207.0" layoutY="100.0" mnemonicParsing="false" onAction="#cancel" text="Отмена" />
+   </children>
+</AnchorPane>

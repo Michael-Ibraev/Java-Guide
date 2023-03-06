@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javaguide.Chapters">
+   <children>
+      <TextField fx:id="searchField" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="665.0" promptText="Поиск" />
+      <Button fx:id="searchBtn" layoutX="705.0" layoutY="14.0" mnemonicParsing="false" onAction="#search" prefHeight="25.0" prefWidth="81.0" text="Найти" />
+      <ScrollPane layoutX="15.0" layoutY="45.0" prefHeight="495.0" prefWidth="771.0">
+         <content>
+            <VBox fx:id="vbox" prefHeight="489.0" prefWidth="760.0" style="-fx-background-color: #fff;" />
+         </content>
+      </ScrollPane>
+      <Button fx:id="addBtn" layoutX="14.0" layoutY="546.0" mnemonicParsing="false" onAction="#addChapter" text="Добавить раздел" />
+      <Button fx:id="editBtn" layoutX="165.0" layoutY="546.0" mnemonicParsing="false" onAction="#editChapter" text="Редактировать раздел" />
+   </children>
+</AnchorPane>

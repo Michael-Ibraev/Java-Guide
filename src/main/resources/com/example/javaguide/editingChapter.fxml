@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.web.*?>
+
+<AnchorPane prefHeight="480.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javaguide.EditingChapter">
+    <children>
+        <TextField fx:id="nameField" layoutX="14.0" layoutY="14.0" promptText="Название" />
+        <Button layoutX="589.0" layoutY="441.0" mnemonicParsing="false" onAction="#submit" prefHeight="25.0" prefWidth="102.0" text="Применить" textAlignment="CENTER" />
+      <HTMLEditor fx:id="htmlEditor" htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" layoutX="14.0" layoutY="55.0" prefHeight="186.0" prefWidth="679.0" />
+      <WebView fx:id="webView" layoutX="22.0" layoutY="254.0" prefHeight="200.0" prefWidth="549.0" />
+    </children>
+</AnchorPane>

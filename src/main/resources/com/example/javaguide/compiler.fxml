@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javaguide.Compiler">
+   <children>
+      <TextArea fx:id="Input" layoutX="25.0" layoutY="39.0" prefHeight="350.0" prefWidth="550.0" text="// Use this editor to write, compile and run your Java code&#10;&#10;class HelloWorld {&#10;    public static void main(String[] args) {&#10;        System.out.println(&quot;Hello, World!&quot;);&#10;    }&#10;}" />
+      <Button layoutX="25.0" layoutY="8.0" mnemonicParsing="false" onAction="#compile" text="Запуск" />
+      <TextArea fx:id="Output" layoutX="25.0" layoutY="404.0" prefHeight="160.0" prefWidth="550.0" />
+   </children>
+</AnchorPane>

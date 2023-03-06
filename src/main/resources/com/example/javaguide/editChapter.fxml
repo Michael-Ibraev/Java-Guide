@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javaguide.EditChapter">
+    <children>
+        <TextField fx:id="searchField" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="664.0" promptText="Поиск" />
+        <Button fx:id="searchBtn" layoutX="707.0" layoutY="14.0" mnemonicParsing="false" onAction="#search" prefHeight="25.0" prefWidth="79.0" text="Найти" textAlignment="JUSTIFY">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets></Button>
+        <ScrollPane layoutX="15.0" layoutY="45.0" prefHeight="495.0" prefWidth="771.0">
+            <content>
+                <VBox fx:id="vbox" prefHeight="489.0" prefWidth="768.0" style="-fx-background-color: #fff;" />
+            </content>
+        </ScrollPane>
+    </children>
+</AnchorPane>
